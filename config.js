@@ -2,7 +2,7 @@ module.exports = {
     url: "http://tatsuo48.me",
     title: "おやかたの話",
     lang: "ja",
-    description: "",
+    description: "日々の諸々を書きます。",
     defaultKeywords: [`blog`, `gatsby`, `javascript`, `aws`, `tatsuo48`],
     defaultMetaImage: "/my_pic.jpg",
 
