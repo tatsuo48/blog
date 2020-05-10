@@ -42,5 +42,5 @@ module.exports = {
     pageListSize: 5,
 
     copyright: "© All rights reserved.",
-    googleAnalyticsId: "HOGEHOGEUA-143311992-2",
+    googleAnalyticsId: "UA-166042495-1",
 };
