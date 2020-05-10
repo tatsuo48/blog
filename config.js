@@ -4,7 +4,7 @@ module.exports = {
     lang: "ja",
     description: "",
     defaultKeywords: [`blog`, `gatsby`, `javascript`, `aws`, `tatsuo48`],
-    defaultMetaImage: "/defaultmetaimage.png",
+    defaultMetaImage: "/my_pic.jpg",
 
     authorNickName: "tatsuo48",
     authorFullName: "YokoyamaTatsuo",
