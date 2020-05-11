@@ -5,7 +5,6 @@ category: Tech
 tags:
     - kintone
     - javascript
-cover: ./no-image.png
 ---
 
 最近、仕事で kintone に触れることが多い。
