@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import styled from "styled-components";
-import { StaticQuery, graphql } from "gatsby";
+import { StaticQuery, graphql, Link } from "gatsby";
 import Image from "gatsby-image";
 
 const Container = styled.div`
@@ -83,6 +83,14 @@ const Bio = () => {
                         <BioSocial>
                             {social && (
                                 <Fragment>
+                                    {
+                                        <Link to="/about-me">
+                                            <span className="fa-stack">
+                                                <i className="fas fa-circle fa-stack-2x" />
+                                                <i className="fas fa-code-branch fa-stack-1x fa-inverse fa-lg" />
+                                            </span>
+                                        </Link>
+                                    }
                                     {social.twitter && (
                                         <a
                                             href={social.twitter}
