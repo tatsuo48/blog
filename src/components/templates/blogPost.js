@@ -6,32 +6,33 @@ import TagList from "components/molecules/tagList";
 import RecentPostList from "components/organisms/recentPostList";
 import Layout from "./layout";
 import SEO from "../seo";
+import { TwitterShareButton, TwitterIcon } from "react-share";
 
 const PostHeader = styled.div`
     h1 {
         padding: 0;
         margin-bottom: 10px;
         border: none;
-        color: ${props => props.theme.blogpost.title};
+        color: ${(props) => props.theme.blogpost.title};
     }
 
     hr {
         margin: 20px 0 40px 0;
-        background-color: ${props => props.theme.blogpost.hr};
+        background-color: ${(props) => props.theme.blogpost.hr};
     }
 
     div {
-        color: ${props => props.theme.blogpost.info};
+        color: ${(props) => props.theme.blogpost.info};
         #circle {
-            background-color: ${props => props.theme.blogpost.info};
+            background-color: ${(props) => props.theme.blogpost.info};
         }
     }
 `;
 
 const PostContent = styled.div`
-    color: ${props => props.theme.blogpost.content.default};
+    color: ${(props) => props.theme.blogpost.content.default};
     a {
-        color: ${props => props.theme.blogpost.content.link};
+        color: ${(props) => props.theme.blogpost.content.link};
         &:hover {
             text-decoration: underline;
         }
@@ -49,8 +50,12 @@ const PostContent = styled.div`
         margin-left: 0;
         margin-right: 0;
         padding-left: calc(0.8125rem - 1px);
-        border-left: 4px solid ${props => props.theme.blogpost.content.quote};
-        color: ${props => props.theme.blogpost.content.quote};
+        border-left: 4px solid ${(props) => props.theme.blogpost.content.quote};
+        color: ${(props) => props.theme.blogpost.content.quote};
+    }
+
+    iframe {
+        margin-bottom: 0;
     }
 `;
 
@@ -59,10 +64,38 @@ const PostFooter = styled.div`
 
     hr {
         margin: 20px 0;
-        background-color: ${props => props.theme.blogpost.hr};
+        background-color: ${(props) => props.theme.blogpost.hr};
     }
 `;
 
+const SnsShareButtons = ({ url, title }) => {
+    return (
+        <div>
+            <TwitterShareButton
+                url={url}
+                title={title}
+                className="mr-2"
+                style={{ marginRight: 10 }}
+            >
+                <TwitterIcon size={40} round />
+            </TwitterShareButton>
+            <a
+                href="https://b.hatena.ne.jp/entry/"
+                class="hatena-bookmark-button"
+                data-hatena-bookmark-layout="touch-counter"
+                title="このエントリーをはてなブックマークに追加"
+            >
+                <img
+                    src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png"
+                    alt="このエントリーをはてなブックマークに追加"
+                    width="20"
+                    height="20"
+                    style={{ border: "none" }}
+                />
+            </a>
+        </div>
+    );
+};
 class BlogPost extends React.Component {
     render() {
         const post = this.props.data.markdownRemark;
@@ -72,10 +105,9 @@ class BlogPost extends React.Component {
             date,
             category,
             tags,
-            cover
+            cover,
         } = this.props.data.markdownRemark.frontmatter;
         const { recent } = this.props.pageContext;
-
         return (
             <Layout
                 location={this.props.location}
@@ -97,6 +129,10 @@ class BlogPost extends React.Component {
 
                 <PostContent>
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                    <SnsShareButtons
+                        url={this.props.location.href}
+                        title={title}
+                    />
                 </PostContent>
 
                 <PostFooter>

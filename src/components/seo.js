@@ -23,13 +23,15 @@ function SEO({ description, lang, meta, keywords, title, image }) {
     );
 
     const metaDescription = description || site.siteMetadata.description;
-    const metaImage = site.siteMetadata.siteUrl + (image || site.siteMetadata.defaultMetaImage);
-    const metaLang = site.siteMetadata.lang || 'en';
+    const metaImage =
+        site.siteMetadata.siteUrl +
+        (image || site.siteMetadata.defaultMetaImage);
+    const metaLang = site.siteMetadata.lang || "en";
 
     return (
         <Helmet
             htmlAttributes={{
-                lang
+                lang,
             }}
             title={title}
             titleTemplate={`%s | ${site.siteMetadata.title}`}
@@ -37,69 +39,77 @@ function SEO({ description, lang, meta, keywords, title, image }) {
                 // HTML
                 {
                     name: `description`,
-                    content: metaDescription
+                    content: metaDescription,
                 },
                 // Google
                 {
                     itemprop: `name`,
-                    content: title
+                    content: title,
                 },
                 {
                     itemprop: `description`,
-                    content: metaDescription
+                    content: metaDescription,
                 },
                 {
                     itemprop: `image`,
-                    content: metaImage
+                    content: metaImage,
                 },
                 // Facebook
                 {
                     property: `og:type`,
-                    content: `website`
+                    content: `website`,
                 },
                 {
                     property: `og:title`,
-                    content: title
+                    content: title,
                 },
                 {
                     property: `og:description`,
-                    content: metaDescription
+                    content: metaDescription,
                 },
                 {
                     property: `og:image`,
-                    content: metaImage
+                    content: metaImage,
                 },
                 // Twitter
                 {
                     name: `twitter:card`,
-                    content: `summary`
+                    content: `summary`,
                 },
                 {
                     name: `twitter:title`,
-                    content: title
+                    content: title,
                 },
                 {
                     name: `twitter:description`,
-                    content: metaDescription
+                    content: metaDescription,
                 },
                 {
                     name: `twitter:image`,
-                    content: metaImage
+                    content: metaImage,
                 },
                 {
                     name: `twitter:creator`,
-                    content: site.siteMetadata.authorNickName
+                    content: site.siteMetadata.authorNickName,
                 },
                 {
                     name: `keywords`,
                     content:
                         keywords.length > 0
-                            ? site.siteMetadata.defaultKeywords.concat(keywords.join(`, `))
-                            : site.siteMetadata.defaultKeywords
-                }
+                            ? site.siteMetadata.defaultKeywords.concat(
+                                  keywords.join(`, `)
+                              )
+                            : site.siteMetadata.defaultKeywords,
+                },
             ].concat(meta)}
         >
-            <html lang={metaLang}/>
+            <html lang={metaLang} />
+            <script
+                type="text/javascript"
+                src="https://b.st-hatena.com/js/bookmark_button.js"
+                charset="utf-8"
+                async="async"
+            ></script>
         </Helmet>
     );
 }
@@ -108,7 +118,7 @@ SEO.defaultProps = {
     lang: `en`,
     meta: [],
     keywords: [],
-    description: ``
+    description: ``,
 };
 
 SEO.propTypes = {
@@ -116,7 +126,7 @@ SEO.propTypes = {
     lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object),
     keywords: PropTypes.arrayOf(PropTypes.string),
-    title: PropTypes.string.isRequired
+    title: PropTypes.string.isRequired,
 };
 
 export default SEO;
