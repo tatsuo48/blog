@@ -1,5 +1,5 @@
 ---
-title: AWS Amplifyを触ってみた。
+title: AWS Amplify CLIを触ってみた。
 date: "2020-05-17"
 category: Tech
 tags:
