@@ -413,38 +413,40 @@ https://cdkworkshop.com/20-typescript/50-table-viewer.html
 
 -   `lib/hitcounter.ts`
 
-```diff
+```javascript
 export class HitCounter extends cdk.Construct {
   /** allows accessing the counter function */
   public readonly handler: lambda.Function;
-+  public readonly table: dynamodb.Table;
+  public readonly table: dynamodb.Table; // highlight-line
 ```
 
-```diff
-    const table = new dynamodb.Table(this, "Hits", {
-      partitionKey: { name: "path", type: dynamodb.AttributeType.STRING },
-    });
-+    this.table = table;
+```javascript
+const table = new dynamodb.Table(this, "Hits", {
+    partitionKey: { name: "path", type: dynamodb.AttributeType.STRING },
+});
+this.table = table; // highlight-line
 ```
 
 -   `lib/aws-cdk-stack.ts`
 
-```diff
+```javascript
 import * as apigateway from "@aws-cdk/aws-apigateway";
-import { HitCounter } from './hitcounter';
-+import { TableViewer } from 'cdk-dynamo-table-viewer';
+import { HitCounter } from "./hitcounter";
+import { TableViewer } from "cdk-dynamo-table-viewer"; // highlight-line
 ```
 
-```diff
-    new apigateway.LambdaRestApi(this, 'Endpoint', {
-      handler: helloWithCounter.handler
-    });
+```javascript
+new apigateway.LambdaRestApi(this, "Endpoint", {
+    handler: helloWithCounter.handler,
+});
 
-+    new TableViewer(this, 'ViewHitCounter', {
-+      title: 'Hello Hits',
-+      table: helloWithCounter.table,
-+      sortBy: '-hits'
-+    })
+// highlight-start
+new TableViewer(this, "ViewHitCounter", {
+    title: "Hello Hits",
+    table: helloWithCounter.table,
+    sortBy: "-hits",
+});
+// highlight-end
 ```
 
 これで再び`npm run build && cdk deploy`する。  
