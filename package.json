@@ -6,7 +6,7 @@
     "author": "Tatsuo Yokoyama <green.americanidiot.yokoyama@gmail.com>",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.19",
-        "@fortawesome/free-regular-svg-icons": "^5.8.2",
+        "@fortawesome/free-regular-svg-icons": "^5.15.2",
         "@fortawesome/free-solid-svg-icons": "^5.9.0",
         "@fortawesome/react-fontawesome": "^0.1.4",
         "babel-plugin-styled-components": "^1.10.6",
