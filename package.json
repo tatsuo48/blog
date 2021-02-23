@@ -10,7 +10,7 @@
         "@fortawesome/free-solid-svg-icons": "^5.9.0",
         "@fortawesome/react-fontawesome": "^0.1.13",
         "babel-plugin-styled-components": "^1.10.6",
-        "gatsby": "^2.3.3",
+        "gatsby": "^2.32.4",
         "gatsby-awesome-pagination": "^0.3.6",
         "gatsby-image": "^2.0.35",
         "gatsby-plugin-feed": "^2.1.0",
