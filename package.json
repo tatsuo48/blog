@@ -8,7 +8,7 @@
         "@fortawesome/fontawesome-svg-core": "^1.2.34",
         "@fortawesome/free-regular-svg-icons": "^5.8.2",
         "@fortawesome/free-solid-svg-icons": "^5.15.2",
-        "@fortawesome/react-fontawesome": "^0.1.13",
+        "@fortawesome/react-fontawesome": "^0.1.14",
         "babel-plugin-styled-components": "^1.10.6",
         "gatsby": "^2.32.4",
         "gatsby-awesome-pagination": "^0.3.6",
