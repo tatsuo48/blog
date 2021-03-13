@@ -24,7 +24,7 @@
         "gatsby-prismjs-dracula": "^0.1.15",
         "gatsby-remark-copy-linked-files": "^2.0.11",
         "gatsby-remark-emoji": "^0.0.3",
-        "gatsby-remark-images": "^2.0.6",
+        "gatsby-remark-images": "^3.11.1",
         "gatsby-remark-prismjs": "^3.13.0",
         "gatsby-remark-responsive-iframe": "^2.1.1",
         "gatsby-remark-smartypants": "^2.0.9",
@@ -45,7 +45,7 @@
     },
     "devDependencies": {
         "gatsby-plugin-root-import": "^2.0.5",
-        "prettier": "^1.16.4"
+        "prettier": "^2.2.1"
     },
     "homepage": "https://github.com/tatsuo48/blog",
     "keywords": [
