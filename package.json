@@ -10,7 +10,7 @@
         "@fortawesome/free-solid-svg-icons": "^5.15.2",
         "@fortawesome/react-fontawesome": "^0.1.13",
         "babel-plugin-styled-components": "^1.10.6",
-        "gatsby": "^2.32.4",
+        "gatsby": "^2.32.11",
         "gatsby-awesome-pagination": "^0.3.6",
         "gatsby-image": "^2.0.35",
         "gatsby-plugin-feed": "^2.1.0",
@@ -45,7 +45,7 @@
     },
     "devDependencies": {
         "gatsby-plugin-root-import": "^2.0.5",
-        "prettier": "^1.16.4"
+        "prettier": "^2.2.1"
     },
     "homepage": "https://github.com/tatsuo48/blog",
     "keywords": [
