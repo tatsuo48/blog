@@ -13,7 +13,7 @@
         "gatsby": "^2.32.4",
         "gatsby-awesome-pagination": "^0.3.6",
         "gatsby-image": "^3.0.0",
-        "gatsby-plugin-feed": "^2.1.0",
+        "gatsby-plugin-feed": "^2.13.1",
         "gatsby-plugin-google-analytics": "^2.11.0",
         "gatsby-plugin-manifest": "^2.0.25",
         "gatsby-plugin-offline": "^2.0.25",
