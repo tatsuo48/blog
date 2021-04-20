@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
                 <PostList
                     data={posts}
                     page={pageContext}
-                    path={"/"}
+                    path={""}
                     pageListSize={pageListSize}
                 />
             </Layout>

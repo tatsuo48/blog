@@ -33,7 +33,7 @@ const Pagination = ({ page, path, listSize }) => {
     let pgs = [];
 
     for (let i = startPage; i <= endPage; i++) {
-        let pageNum = i !== 1 ? `/${i}` : "";
+        let pageNum = i !== 1 ? `/${i}` : "/";
 
         if (i === activePage) {
             pgs.push(
