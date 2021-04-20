@@ -61,7 +61,7 @@
         "url": "git+https://github.com/tatsuo48/blog.git"
     },
     "scripts": {
-        "dev": "gatsby develop",
+        "dev": "gatsby develop --host 0.0.0.0",
         "build": "gatsby build"
     }
 }
