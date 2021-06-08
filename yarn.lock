@@ -962,10 +962,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
-  version "7.13.16"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.13.16.tgz#673e7b84c1f6287d96d483fa65cd3db792d53e22"
-  integrity sha512-7VsWJsI5USRhBLE/3of+VU2DDNWtYHQlq2IHu2iL15+Yx4qVqP8KllR6JMHQlTKWRyDk9Tw6unkqSusaHXt//A==
+"@babel/runtime@^7.10.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.14.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  integrity sha512-JELkvo/DlpNdJ7dlyw/eY7E0suy5i5GQH+Vlxaq1nsNJ+H7f4Vtv3jMeCEgRhZZQFXTjldYfQgv2qmM6M1v5wA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -6196,12 +6196,12 @@ gatsby-plugin-typescript@^3.3.0:
     "@babel/runtime" "^7.12.5"
     babel-plugin-remove-graphql-queries "^3.3.0"
 
-gatsby-plugin-typography@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-3.3.0.tgz#31d9b6e20bde45de12b189bd9b1c534109816810"
-  integrity sha512-s+3yR4qqTbyPz7c01k18LmRValxupWfxxfYJyl2+qDSiQkKT/UATJSyn3gYrpMLUMEY6g4FoWS4EKURkrH40pw==
+gatsby-plugin-typography@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typography/-/gatsby-plugin-typography-3.7.0.tgz#babf47223c7d5a9b3cdae526c5c28fe39b08fbf8"
+  integrity sha512-AZ17VCWJJBMUBWHA+CZfiEZ3MSi4tdqEICbPc5Z0iXExAiFeQFgI2hHi7/SpeVluaAyuXzCT2x9EYSus47if+g==
   dependencies:
-    "@babel/runtime" "^7.12.5"
+    "@babel/runtime" "^7.14.0"
 
 gatsby-plugin-utils@^1.3.0:
   version "1.3.0"
