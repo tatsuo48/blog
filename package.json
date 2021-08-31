@@ -38,7 +38,7 @@
         "react-onclickoutside": "^6.8.0",
         "react-share": "^4.4.0",
         "react-switch": "^6.0.0",
-        "react-typography": "^0.16.19",
+        "react-typography": "^0.16.20",
         "styled-components": "^5.2.3",
         "typography": "^0.16.19",
         "typography-theme-github": "^0.16.19"
