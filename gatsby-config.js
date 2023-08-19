@@ -42,6 +42,16 @@ module.exports = {
                 plugins: [
                     `gatsby-remark-emoji`,
                     {
+                        resolve: `gatsby-remark-prismjs`,
+                        options: {
+                            classPrefix: "language-",
+                            inlineCodeMarker: null,
+                            aliases: {},
+                            showLineNumbers: true,
+                            noInlineHighlight: false,
+                        },
+                    },
+                    {
                         resolve: `gatsby-remark-images`,
                         options: {
                             maxWidth: 590,
@@ -51,30 +61,6 @@ module.exports = {
                         resolve: `gatsby-remark-responsive-iframe`,
                         options: {
                             wrapperStyle: `margin-bottom: 1.0725rem`,
-                        },
-                    },
-                    {
-                        resolve: `gatsby-remark-prismjs`,
-                        options: {
-                            classPrefix: "language-",
-                            inlineCodeMarker: null,
-                            aliases: {},
-                            showLineNumbers: false,
-                            noInlineHighlight: false,
-                            languageExtensions: [
-                                {
-                                    language: "superscript",
-                                    extend: "javascript",
-                                    definition: {
-                                        superscript_types: /(SuperType)/,
-                                    },
-                                    insertBefore: {
-                                        function: {
-                                            superscript_keywords: /(superif|superelse)/,
-                                        },
-                                    },
-                                },
-                            ],
                         },
                     },
                     `gatsby-remark-copy-linked-files`,
