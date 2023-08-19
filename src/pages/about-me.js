@@ -10,11 +10,34 @@ const CareerTimeline = () => {
             <h1>Career Timeline</h1>
             <div>
                 <h2>
+                    <a href="https://corp.moneyforward.com/">
+                        マネーフォワード
+                    </a>
+                </h2>
+                <p>2023/05~現在</p>
+                <ol>
+                    <li>全社横断組織のSREとしてEnabling SRE活動を実施</li>
+                </ol>
+            </div>
+            <div>
+                <h2>
+                    <a href="https://ne-inc.jp/">NE株式会社(転籍)</a>
+                </h2>
+                <p>2022/08~2023/5</p>
+                <ol>
+                    <li>引き続きSRE/テックリード</li>
+                </ol>
+            </div>
+            <div>
+                <h2>
                     <a href="https://hamee.co.jp/">Hamee</a>
                 </h2>
-                <p>2020/04~現在</p>
+                <p>2020/04~2022/7</p>
                 <ol>
                     <li>自社サービスのAWS移行</li>
+                    <li>
+                        テックリードとしてメンバーの技術面での成長をサポート
+                    </li>
                 </ol>
             </div>
             <div>
