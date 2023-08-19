@@ -21,7 +21,6 @@
         "gatsby-plugin-sharp": "5.11.0",
         "gatsby-plugin-styled-components": "6.11.0",
         "gatsby-plugin-typography": "5.11.0",
-        "gatsby-prismjs-dracula": "0.1.15",
         "gatsby-remark-copy-linked-files": "6.11.0",
         "gatsby-remark-emoji": "0.0.3",
         "gatsby-remark-images": "7.11.0",
