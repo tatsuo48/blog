@@ -44,7 +44,7 @@
         "typography-theme-github": "0.16.19"
     },
     "devDependencies": {
-        "gatsby-plugin-root-import": "2.0.8",
+        "gatsby-plugin-root-import": "2.0.9",
         "prettier": "2.8.8"
     },
     "homepage": "https://github.com/tatsuo48/blog",
