@@ -37,7 +37,6 @@ $ gatsbyjs develop
 -   Styled-Components.
 -   Atomic Design Components.
 -   Mobile-First CSS.
--   Syntax highlighting in code blocks using PrismJS(Dracula).
 -   Google Analytics.
 -   Deploy AWS S3.
 -   Emoji.
