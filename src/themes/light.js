@@ -4,22 +4,22 @@ export default {
         defaultText: "#000",
         overlayBack: "#000",
         header: {
-            back: "#16a4b6",
+            back: "#352F44",
             text: "#fff",
             button: "#fff",
         },
     },
     side: {
-        defaultBack: "#16a4b6",
+        defaultBack: "#352F44",
         defaultText: "#fff",
         bio: {
-            circle: "#49c39e",
+            circle: "#FAF0E6",
             defaultText: "#fff",
             activeText: "#000",
         },
         category: {
             activeText: "#000",
-            activeBack: "#49c39e",
+            activeBack: "#FAF0E6",
         },
     },
     bio: {
@@ -36,7 +36,7 @@ export default {
     pagination: {
         defaultText: "#999",
         activeText: "#fff",
-        activeBack: "#16a4b6",
+        activeBack: "#5C5470",
     },
     blogpost: {
         title: "#000",
@@ -45,7 +45,7 @@ export default {
         content: {
             default: "#000",
             quote: "#999",
-            link: "#0687f0",
+            link: "#5C5470",
         },
     },
     tag: {
@@ -54,7 +54,7 @@ export default {
     },
     recentpostlist: {
         header: "#000",
-        category: "#0687f0",
+        category: "#352F44",
     },
     recentpostitem: {
         text: "#fff",
