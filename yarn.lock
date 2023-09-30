@@ -6706,6 +6706,13 @@ gatsby-plugin-styled-components@6.12.0:
   dependencies:
     "@babel/runtime" "^7.20.13"
 
+gatsby-plugin-twitter@^5.12.0:
+  version "5.12.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-5.12.0.tgz#7d8849cb7610ce37f0f39733e07b8c578a0d1728"
+  integrity sha512-Z76Km0vszFvo/BF5wVQsLn+0ivho9VexFX3O3MYxpQuNjRVdPKRV6FlnyHO23jtUPdCiAlAuB0vDFD/9oFexsA==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+
 gatsby-plugin-typescript@^5.12.0:
   version "5.12.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-5.12.0.tgz#dcd7f7f74749e7a1e48e301f18479cce8eaf9e93"

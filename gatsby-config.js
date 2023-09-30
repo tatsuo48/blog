@@ -20,6 +20,7 @@ module.exports = {
         pageListSize: siteConfig.pageListSize,
     },
     plugins: [
+        `gatsby-plugin-twitter`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-sharp`,
         {
