@@ -21,6 +21,8 @@ SRE NEXT 2023 にコアスタッフとして参加したので、その感想を
 
 <https://x.com/srenext/status/1638468804484399104?s=20>
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【SRE NEXT 2023 コアスタッフ募集のお知らせ】<br>SRE NEXT 2023を一緒に作ってくれるメンバーを募集します！<br>ご興味のある方は是非ご応募ください！お待ちしております！！ <a href="https://twitter.com/hashtag/srenext?src=hash&amp;ref_src=twsrc%5Etfw">#srenext</a><a href="https://t.co/IlKzPKmyip">https://t.co/IlKzPKmyip</a></p>&mdash; SRE NEXT (@srenext) <a href="https://twitter.com/srenext/status/1638468804484399104?ref_src=twsrc%5Etfw">March 22, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 SRE NEXT 自体は失礼ながら知らなかったのですが、SRE に関してきちんと社内でやっていけるようになりたいなと思っていたのでこれはチャンス！という思いもありました。  
 そして、無事に採用されコアスタッフとして参加することができました！  
 
@@ -40,6 +42,12 @@ SRE NEXT 自体は失礼ながら知らなかったのですが、SRE に関し�
 
 フォトコンテストに関しては、スポンサー企業様の協力もあり多数の賞を準備でき、懇親会の盛り上げに一役買うことができたかなと思っています。  
 1 枚も写真投稿されなかったらどうしようかな〜と不安になっていましたが蓋をあけてみるとたくさんの写真が投稿されていてほっとしました。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">eurekaの信頼性フレンズです<a href="https://twitter.com/hashtag/srenext?src=hash&amp;ref_src=twsrc%5Etfw">#srenext</a> <a href="https://t.co/LrddZdG25n">pic.twitter.com/LrddZdG25n</a></p>&mdash; Takashi Narikawa (@fukubaka0825) <a href="https://twitter.com/fukubaka0825/status/1707677937066262970?ref_src=twsrc%5Etfw">September 29, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">1人で参戦だったので、ボッチ感ありましたが、いろんなかたに会えて大変勉強になりました🍩💪<br><br>そして、図らずも、イベントのカラーとワンピースの色が被りました！💙<a href="https://twitter.com/hashtag/srenext?src=hash&amp;ref_src=twsrc%5Etfw">#srenext</a> <a href="https://t.co/zAXZTkj72i">pic.twitter.com/zAXZTkj72i</a></p>&mdash; しもおかさん🍩Forkwell DevRel (@moshimoshi_yuki) <a href="https://twitter.com/moshimoshi_yuki/status/1707636307827253271?ref_src=twsrc%5Etfw">September 29, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">テックカンファレンスで良くお会いする<br>ことみんさん<br>しもおかさん<br>と <a href="https://twitter.com/hashtag/srenext?src=hash&amp;ref_src=twsrc%5Etfw">#srenext</a> <a href="https://t.co/8VI9p9jmwT">pic.twitter.com/8VI9p9jmwT</a></p>&mdash; 西から来た馬づらの男 (@beppu01) <a href="https://twitter.com/beppu01/status/1707628973772169344?ref_src=twsrc%5Etfw">September 29, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 当日は遊撃部隊だったので、会場をふらふら歩き回って色んなところを見ることができました。  
 すれ違う人皆さん楽しそうにされていて、今日まで頑張ってきてよかったな。。と思っていました。
