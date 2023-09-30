@@ -3,7 +3,7 @@ title: SRE NEXT 2023にコアスタッフとして参加しました
 date: "2023-09-30"
 category: Tech
 tags:
-cover: ./sre_next.svg
+cover: ./sre_next.png
 ---
 
 SRE NEXT 2023にコアスタッフとして参加したので、その感想を書いていきます。
