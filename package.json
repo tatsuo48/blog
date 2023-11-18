@@ -39,7 +39,7 @@
         "react-share": "5.0.0",
         "react-switch": "7.0.0",
         "react-typography": "0.16.23",
-        "styled-components": "6.0.8",
+        "styled-components": "6.1.1",
         "typography": "0.16.24",
         "typography-theme-github": "0.16.19"
     },
