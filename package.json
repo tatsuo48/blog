@@ -45,7 +45,7 @@
     },
     "devDependencies": {
         "gatsby-plugin-root-import": "2.0.9",
-        "prettier": "3.1.1"
+        "prettier": "3.2.4"
     },
     "homepage": "https://github.com/tatsuo48/blog",
     "keywords": [
