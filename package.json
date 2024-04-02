@@ -5,9 +5,9 @@
     "version": "1.0.0",
     "author": "Tatsuo Yokoyama <green.americanidiot.yokoyama@gmail.com>",
     "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "6.5.1",
-        "@fortawesome/free-regular-svg-icons": "6.5.1",
-        "@fortawesome/free-solid-svg-icons": "6.5.1",
+        "@fortawesome/fontawesome-svg-core": "6.5.2",
+        "@fortawesome/free-regular-svg-icons": "6.5.2",
+        "@fortawesome/free-solid-svg-icons": "6.5.2",
         "@fortawesome/react-fontawesome": "0.2.0",
         "babel-plugin-styled-components": "2.1.4",
         "gatsby": "5.13.3",
