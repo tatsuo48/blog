@@ -36,7 +36,7 @@
         "react-dom": "^18.2.0",
         "react-helmet": "6.1.0",
         "react-onclickoutside": "6.13.1",
-        "react-share": "5.2.0",
+        "react-share": "5.2.1",
         "react-switch": "7.1.0",
         "react-typography": "0.16.23",
         "styled-components": "6.1.15",
@@ -45,7 +45,7 @@
     },
     "devDependencies": {
         "gatsby-plugin-root-import": "2.0.9",
-        "prettier": "3.5.1"
+        "prettier": "3.5.2"
     },
     "homepage": "https://github.com/tatsuo48/blog",
     "keywords": [
